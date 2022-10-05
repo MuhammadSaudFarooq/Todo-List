@@ -1,0 +1,15 @@
+.todo-result svg {
+  cursor: pointer;
+}
+.todo-result svg:hover {
+  color: red;
+}
+.delIcon {
+  position: absolute;
+  right: 10px;
+}
+.itemContent::before {
+  content: '•';
+  position: absolute;
+  left: 10px;
+}
